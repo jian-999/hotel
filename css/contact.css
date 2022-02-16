@@ -108,7 +108,7 @@ body>div{width: 90%;margin:0 auto;}
 #title-contact{position: relative;top:125px;}
 #title-contact>h1{font-size: 36px;font-weight: bold;text-align: center;margin-bottom: 25px;}
 #title-contact hr{width: 100px;height: 2px;background-color: cornflowerblue;}
-#contact1{position: relative;top:36px;height: 427px;}
+#contact1{position: relative;top:125px;height: 427px;}
 #contact1>section{height: 100%;position: relative;top:36px;}
 
 #contact1>section>div:nth-child(2){margin: 36px 0;}
@@ -118,7 +118,7 @@ body>div{width: 90%;margin:0 auto;}
 #contact1>section>div>h3+p{width: 40%;position:relative; left:20%;color:#444444;}
 
 
-#Copyright{text-align: center;color: honeydew;background-color: mediumblue;position: relative;top:0px;}
+#Copyright{text-align: center;color: honeydew;background-color: mediumblue;position: relative;top:125px;}
 @media screen and (max-width:800px){
 body>div{width: 100%;}
 #nav{position: absolute;left:-120%;top:12.5rem;width: 100%;}
@@ -204,7 +204,7 @@ input[id=checkbox]:checked+button+nav{-webkit-animation:ph-nav forwards 0.3s;ani
 #btn a:hover{background-color: #b4004e;}
 
 
-#Copyright{text-align: center;color: honeydew;background-color: mediumblue;position: relative;top:0px;}
+#Copyright{text-align: center;color: honeydew;background-color: mediumblue;position: relative;top:125px;}
 }
 
 @media screen and (max-width:600px){
