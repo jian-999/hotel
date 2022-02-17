@@ -12,6 +12,7 @@
 #btn{display: block;position: relative;left:90%;top:-50px;}
 input[type=checkbox]:checked+nav{-webkit-animation: nav forwards 0.3s;animation: nav forwards 0.3s;}
 #navs{position: absolute;left:-150%;width: 100%;}
+#navs>section>a{color: #222222;text-decoration: none;font-size:24px;}
 #checkbox1{opacity: 0%;}
 @-webkit-keyframes nav{
           0%{left:-150%;}
