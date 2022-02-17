@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>作品集-ui</title>
+  <title>作品集-旅館</title>
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="這是一個響應式網頁的作品">  
@@ -9,99 +9,70 @@
    <link rel="stylesheet" type="text/css" href="css/contact.css">
     <script src="js/jquery-3.4.0.min.js"></script>
     <script  type="text/javascript" src="js/nav.js"></script>
-     
+     <script  type="text/javascript" src="js/animation.js"></script>
 
    
 </head>
 <body>
-    <div>
-       <div id="logo">作品集</div>
-       <h1></h1>
-       <input type="checkbox" id="checkbox">
-       <button id="btn-nav" style="background-color: white;"><label for="checkbox" ><img src="images/icon-nav.png"></label></button>
-       <nav id="nav">
-            <div id="nav1">
-                  <div>
-                       <h3><a href="index.html" style="text-decoration: none;color: azure;">首頁</a></h3>
-                                     
-                  </div>
-                  <div>
-                       <h3><a href="about.html" style="text-decoration: none;color: azure;">關於我們</a></h3>
-                      
-                  </div>
-                   <div>
-                       <h3><a href="item.html" style="text-decoration: none;color: azure;">出租房型</a></h3>
-                        
-                      
-                  </div>
-                   <div>
-                       <h3><a href="contact.html" style="text-decoration: none;color: azure;">聯絡我們</a></h3>
-                        
-                      
-                  </div>
-                  
+     <div>
+           <div id="logo"><h1>LOGO</h1></div>
+           <label for="checkbox1" id="btn"><img src="images/icon-nav.png" style="width:50px;height: 50px;"></label>
+           <input type="checkbox" id="checkbox1">
+           <nav id="navs">
+                 <section>
+                      <a href="index.html">首頁</a>
+                 </section>
+                 <section>
+                    <a href="about.html">關於我們</a>
+               </section>
+               <section>
+                    <a href="item.html">房型</a>
+               </section>
+               <section>
+                    <a href="contact.html">聯絡我們</a>
+               </section>
+
+
+
+
+
+          </nav>
+          <main>
+                 <div>
+                      <div id="animation">
+                        <figure>
+                           <div>
+                                 <img src="images/pexels-joseph-phillips-3677175.jpg">
+                           </div>
+                           <div>
+                             <h1>似樓旅館</h1>
+                             <p>雙人房到四人房,每間房間都有單獨的衛浴設施,價格走的是比較平價的路線,交通相當的方便位於捷運站的附近!</p>
+                             <a href="index.html">了解更多</a>
+                         </div>
+                        </figure>
+                    </div>
+                 </div>
+                <div id="box1">
+                     <section>
+                             <div>
+                                  <h3>地址</h3>
+                                  <p>台北市萬華區??號</p>
+                             </div>
+                             <div>
+                              <h3>電話</h3>
+                              <p>0800-000-000</p>
+                             </div>
+                     </section>
                    
-            </div>
-            
+                </div>
+               
+          </main>
+          <footer id="Copyright">
+               Copyright2022 &copy;CHIEN-CHI.Allright reserved
+          </footer>
 
 
-       </nav>
-       <main>
-               <div id="animation">
-                   <div>
-                          <figure>
-                                
-                                 
-                                  <div><img src="images/pexels-asad-photo-maldives-457882.png"></div>
-                                  <div><figcaption>似樓旅館</figcaption></div>
-                                  <div><p>雙人房到五人房,每間房間都有單獨的衛浴設施,價格走的是比較平價的路線,交通相當的方便位於捷運站的附近!</p></div>
-                                  
-
-                          </figure>
-                          
-                  </div>
-                 
-                  <div id="btn">
-                        <a href="index.html" >了解更多</a>
-                  </div>
-
-               </div>
-               <div>
-                    
-                    <div id="contact1" style="border:1px solid #444444">
-                        <section>
-                                  <div>
-                                       <h3>地址:</h3>
-                                       <p>台北市萬華區??號</p>
-                                  </div>
-                                  <div>
-                                   <h3>電子信箱:</h3>
-                                   <p>aa.ff@gmail.com</p>
-                              </div>
-                              <div>
-                                   <h3>客服專線:</h3>
-                                   <p>0800-000-000</p>
-                              </div>
-                                  
-                              
-                                  
-                       </section>
-                       
-
-                  </div>
-              
-          </div>
-          
-                    
-           
-          
-
-
-
-       </main>
-       <footer id="Copyright">
-            Copyright2021 &copy;CHIEN-CHI.Allright reserved
-       </footer>
-    </div>
+     </div>
+    
 </body>
 </html>
