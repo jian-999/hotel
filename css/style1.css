@@ -4,7 +4,6 @@
 * Autoprefixer: v10.3.1
 * Browsers: last 4 version
 */
-
 @charset"UTF-8";
 #logo{position: relative;}
 #logo>h1{font-size: 50px;font-weight: bold;}
@@ -71,14 +70,17 @@ input[type=checkbox]:checked+nav{-webkit-animation: nav forwards 0.3s;animation:
 }
 
 @media screen and (min-width:801px){
+
       @-webkit-keyframes nav{
             0%{left:15%;}
             100%{left:15%;}
   }
+
       @keyframes nav{
             0%{left:15%;}
             100%{left:15%;}
   }
+
       #btn{opacity: 0;}
 #navs{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-pack: distribute;justify-content: space-around;position: relative;left: 0%;width: 85%;position: absolute;left:15%;top:0%;}
 }
