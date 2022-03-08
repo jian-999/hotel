@@ -9,7 +9,7 @@
 #logo{position: relative;}
 #logo>h1{font-size: 50px;font-weight: bold;}
 #navs{background-color: aqua;}
-#btn{display: block;position: relative;left:90%;top:-50px;}
+#btn{display: block;position: absolute;left:90%;top:0px;}
 input[type=checkbox]:checked+nav{-webkit-animation: nav forwards 0.3s;animation: nav forwards 0.3s;}
 #navs{position: absolute;left:-150%;width: 100%;}
 #navs>section>a{color: #222222;text-decoration: none;font-size:24px;}
@@ -24,12 +24,13 @@ input[type=checkbox]:checked+nav{-webkit-animation: nav forwards 0.3s;animation:
 }
 
 #navs section{margin: 36px 0;}
-
-#animation>figure>div:nth-child(2){position: absolute;top:80%;width: 60%;left: 20%;}
+#animation{position: relative;top:25px;}
+#animation>figure>div:nth-child(2){position: absolute;top:70%;width: 60%;left: 20%;}
 #animation>figure>div h1{width:50%;font-size: 36px;font-weight: bold;text-align: center;color: #222222;margin: 0 auto;}
 #animation>figure>div h1+p{width: 60%;margin: 36px auto;color: #444444;font-size: 18px;}
 #animation>figure>div h1+p+a{display: block; padding: 8px 0;  width: 40%;margin-left:30%;background-color: chocolate;border: 1px solid #444444;border-radius:20px ;font-size: 24px;text-decoration: none;text-align: center;color: #444444;}
-
+#animation>figure>div{width: 100%;height: 100%;}
+#animation>figure>div img{width: 100%;height: 100%;}
 
 #list{background-color:darkgray;width: 100%;position: relative;top:36px;}
 #list>h3{width:50%;font-size: 36px;font-weight: bold;text-align: center;color: #222222;margin: 0 auto;;}
@@ -43,17 +44,18 @@ input[type=checkbox]:checked+nav{-webkit-animation: nav forwards 0.3s;animation:
 
 #Copyright{position: relative;top:36px;text-align: center;}
 @media screen and (max-width:800px){
+      #animation{position: relative;top:25px;z-index: -5;}
       #list>h3+p+div{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
       #list section{width: 100%;background-color: white;margin-bottom: 36px;}
 }
 
 @media screen and (max-width:600px){
-
+      #animation>figure>div:nth-child(2){position: absolute;top:10%;width: 60%;left: 20%;}
 }
 
 @media screen and (min-width:601px)
               and (max-width:800px){
-
+                  #animation>figure>div:nth-child(2){position: absolute;top:30%;width: 60%;left: 20%;}
 }
 
 @media screen and (min-width:801px){
