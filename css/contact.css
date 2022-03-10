@@ -34,7 +34,9 @@ input[type=checkbox]:checked+nav{-webkit-animation: nav forwards 0.3s;animation:
 
 
 #box1 section{position: relative;top:36px;background-color: darkgray;}
+
 #box1 section>div>h3{font-size: 24px;font-weight: bold;text-align: center;color: #222222;position: relative;top:36px;}
+
 #box1 section>div>p{width: 50%;font-size: 18px;margin: 0 auto;text-align: left;color: #444444;padding:36px 0;}
 
 
