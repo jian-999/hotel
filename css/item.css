@@ -48,8 +48,8 @@ input[type=checkbox]:checked+nav{-webkit-animation: nav forwards 0.3s;animation:
       #list>h3+p+div{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
       #list section{width: 100%;background-color: white;margin-bottom: 36px;}
 
-      #animation>figure>div h1{width:100%;font-size: 36px;font-weight: bold;text-align: center;color: #222222;margin: 0 auto;}
-#animation>figure>div h1+p{width: 100%;margin: 36px auto;color: #444444;font-size: 18px;}
+      #animation>figure>div h1{width:100%;font-size: 36px;font-weight: bold;text-align: center;color: white;margin: 0 auto;}
+#animation>figure>div h1+p{width: 100%;margin: 36px auto;color: white;font-size: 18px;}
 }
 
 @media screen and (max-width:600px){
